@@ -1,0 +1,20 @@
+.block {
+    &_bg {
+        width: 100%;
+        height: 215px;
+        background: url('../../../img/selectGoT.jpg') center center / cover no-repeat;
+        text-align: center;
+        border-radius: 10px;
+        &__error {
+            background: url('../../../img/error.jpg') center center / cover no-repeat;
+            width: 100%;
+            height: 215px;
+            border-radius: 10px;
+        }
+    }
+    &_title {
+        color: red;
+        vertical-align: bottom;
+        padding-top: 15%;
+    }
+}

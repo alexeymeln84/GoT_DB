@@ -1,0 +1,29 @@
+.title {
+    color: #fff;
+    text-align: center;
+}
+
+.itemsList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    &_item {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 15px;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        span.label {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        span.text {
+            font-size: 15px;
+        }
+        &:nth-last-child(1) {
+            border-bottom: none;
+        }
+    }
+}
